@@ -16,5 +16,5 @@ with open(sys.stdin) as in_file:
         for line_node in chapter.findAll('p'):
             out_file.write(line_node.text)
             out_file.write('\n')
-            out_file.write('|')
+        out_file.write('|')
 
