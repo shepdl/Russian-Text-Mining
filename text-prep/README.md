@@ -20,7 +20,7 @@ of a sentence. This is a fairly simple algorithm but it's proven to be very effe
 Converting RTF files to plain text
 -----
 
-`convert_rtf_to_txt.py [in_directory] [out_directory]`
+`python convert_rtf_to_txt.py [in_directory] [out_directory]`
 Recursively convert all files in the contained folder from RTF files to text files. Uses Pyth.
 
 
