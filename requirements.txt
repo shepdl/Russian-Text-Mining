@@ -1,0 +1,11 @@
+BeautifulSoup==3.2.1
+beautifulsoup4==4.4.1
+chromedriver==2.21.1
+DAWG-Python==0.7.2
+docopt==0.6.2
+iconv==1.0
+iconv-codecs==0.2a1
+pymorphy2==0.8
+pymorphy2-dicts==2.4.393442.3710985
+pyth==0.6.0
+selenium==2.53.1

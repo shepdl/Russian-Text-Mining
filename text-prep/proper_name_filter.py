@@ -2,7 +2,6 @@
 import re
 
 
-# PROPER_NAMES_PATTERN=u'[^.] [АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ]\\w+'
 PROPER_NAMES_PATTERN=u'[^.] (?=([\u0410-\u042F][\u0430-\u044F]+))'
 
 def remove_proper_names(in_string):
@@ -16,7 +15,6 @@ def remove_proper_names_from_file(in_file):
     matches = set()
     for line in in_file:
         matches = matches.union(find_matches(line))
-    in_file.seek(0)
 
     out_lines = []
     for line in in_file:
